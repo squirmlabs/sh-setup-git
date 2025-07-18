@@ -35,13 +35,13 @@ The script handles different operating systems and provides helpful next steps. 
 
 Issues Found & Fixed:
 
-Input Validation: Added validation for empty names and invalid email formats
-SSH Directory: Added mkdir -p ~/.ssh and proper permission setting (chmod 700)
-File Permissions: Added proper SSH key permissions (chmod 600 for private, chmod 644 for public)
-SSH Agent: Added check if ssh-agent is already running before starting it
-Error Handling: Added better error handling for ssh-add command
-Visual Improvements: Added color coding for better readability
-Additional Git Config: Added useful defaults:
+1. Input Validation: Added validation for empty names and invalid email formats
+2. SSH Directory: Added mkdir -p ~/.ssh and proper permission setting (chmod 700)
+3. File Permissions: Added proper SSH key permissions (chmod 600 for private, chmod 644 for public)
+4. SSH Agent: Added check if ssh-agent is already running before starting it
+5. Error Handling: Added better error handling for ssh-add command
+6. Visual Improvements: Added color coding for better readability
+7. Additional Git Config: Added useful defaults:
 
 pull.rebase false (merge strategy)
 push.default simple (safer pushing)
